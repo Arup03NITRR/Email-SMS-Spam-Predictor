@@ -7,7 +7,7 @@ from nltk.stem.porter import PorterStemmer
 
 tfidf=pk.load(open('./Pickle_files/vectorizer.pkl', 'rb'))
 model=pk.load(open('./Pickle_files/model.pkl', 'rb'))
-nltk.download('punkt')
+nltk.download('punkt_tab')
 
 def transform_text(text):
     #Convert to lower case
