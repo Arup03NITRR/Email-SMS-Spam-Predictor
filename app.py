@@ -146,7 +146,7 @@ st.markdown(
 
 # Main application layout
 with st.container():
-    st.markdown('<div class="header-title">📧 Email/SMS Spam Predictor</div>', unsafe_allow_html=True)
+    st.markdown('<div class="header-title">📧 Email/SMS Spam Predictor 📧</div>', unsafe_allow_html=True)
     st.markdown('<div class="subheader">Check if a message is spam or not with accuracy and reliability.</div>', unsafe_allow_html=True)
 
     # Input section
