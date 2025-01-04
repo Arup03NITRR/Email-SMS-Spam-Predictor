@@ -10,7 +10,7 @@ tfidf = pk.load(open('./Pickle_files/vectorizer.pkl', 'rb'))
 model = pk.load(open('./Pickle_files/model.pkl', 'rb'))
 
 # Download NLTK data
-nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 
 # Text transformation function
